@@ -387,11 +387,16 @@ closing brace from the earlier body.
 
 ```php
 <?php
-if ($expr1) {
+if ($expr1) 
+{
     // if body
-} elseif ($expr2) {
+} 
+elseif ($expr2) 
+{
     // elseif body
-} else {
+} 
+else 
+{
     // else body;
 }
 ```
@@ -410,7 +415,8 @@ indented at the same level as the `case` body. There MUST be a comment such as
 
 ```php
 <?php
-switch ($expr) {
+switch ($expr) 
+{
     case 0:
         echo 'First case, with a break';
         break;
@@ -436,7 +442,8 @@ parentheses, spaces, and braces.
 
 ```php
 <?php
-while ($expr) {
+while ($expr) 
+{
     // structure body
 }
 ```
@@ -446,7 +453,8 @@ of parentheses, spaces, and braces.
 
 ```php
 <?php
-do {
+do 
+{
     // structure body;
 } while ($expr);
 ```
@@ -458,7 +466,8 @@ spaces, and braces.
 
 ```php
 <?php
-for ($i = 0; $i < 10; $i++) {
+for ($i = 0; $i < 10; $i++) 
+{
     // for body
 }
 ```
@@ -470,7 +479,8 @@ parentheses, spaces, and braces.
 
 ```php
 <?php
-foreach ($iterable as $key => $value) {
+foreach ($iterable as $key => $value) 
+{
     // foreach body
 }
 ```
